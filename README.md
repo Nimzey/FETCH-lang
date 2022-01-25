@@ -76,6 +76,10 @@ variable -> something
 msg   something
 ```
 comment: in FETCH you use >> to comment something
+ ```
+ >>this is a comment :)
+ 
+ ```
  
  
  
@@ -85,4 +89,6 @@ comment: in FETCH you use >> to comment something
  
  
  
- #Feel free to make a dialect of FETCH :)
+ 
+ 
+ # Feel free to make a dialect of FETCH :)
