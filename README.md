@@ -92,3 +92,4 @@ comment: in FETCH you use >> to comment something
  
  
  # Feel free to make a dialect of FETCH :)
+ `this is a beta version and there will be more to come`
