@@ -1,0 +1,12 @@
+_start:
+  x -> "hello"
+  msg    x
+  endl
+  >>prints variable
+  
+  >>FETCH can use Ruby functions as well
+  i -> gets
+  msg    "hello, #{i}"
+  endl
+_return
+     
