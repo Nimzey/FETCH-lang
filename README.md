@@ -12,9 +12,11 @@ _return
 ```
 
 # HOW TO GET FETCH RUNNING
-Download ```main.rb``` and run it using a Ruby compiler 
+Download ```fetch.rb``` and run it using a Ruby compiler 
+
 Make a .fetc file and write in your code 
-Run ```main.rb``` and type the fetc file name (with the file extension) 
+
+Run ```fetch.rb``` and type the fetc file name (with the file extension) 
 
 # FUNCTIONS
 
