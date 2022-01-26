@@ -76,7 +76,7 @@ _return
 assign a variable: in FETCH you use a right-facing arrow instead of an equal sign
 ```
 variable -> something
-msg   something
+msg   variable
 ```
 comment: in FETCH you use >> to comment something
  ```
