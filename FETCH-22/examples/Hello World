@@ -1,0 +1,3 @@
+main:
+  msg   "hello world"
+return.
