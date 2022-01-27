@@ -1,0 +1,53 @@
+
+  std::fetchln:: "\e[H\e[2J"
+
+  file_name -> ""
+  file_content -> ""
+  file_handle -> ""
+  $output -> ""
+  $output2 -> ""
+  $returnvalue -> 0
+  function:: _start
+    $output -> ""
+    $returnvalue +=1
+  end::
+  function:: add(a)
+    $output += a.chr 
+  end::
+
+  function:: self.msg(a)
+    $output += a
+  end::
+  function:: _return
+    if:: $returnvalue != 0
+        std::fetchln::  $output
+      
+    else
+        abort("ERROR:: 'main:' was not called")
+    end::
+  end::
+
+  function:: abrupt(a)
+    sleep(a)
+  end::
+
+  function:: slice(a,b)
+  msg = "msg"
+
+
+  if:: a != msg
+    abort('ERROR:: didnt know what to split\ntry adding msg')
+  else::
+    x -> b.split(",") 
+    $output += "\n"
+    for:: i in x
+     $output += i
+     $output += "\n"
+    end::
+  end::
+ end::
+>>splits text into seprate lines
+ function:: endl()
+    $output += "\n"
+ end::
+>>starts new line
