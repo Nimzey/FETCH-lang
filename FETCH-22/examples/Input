@@ -1,0 +1,10 @@
+main:
+  msg    "what is your name? "
+return.
+
+main:
+ i -> scan::
+ msg     "Hello, "
+ msg     i
+return.
+ 
